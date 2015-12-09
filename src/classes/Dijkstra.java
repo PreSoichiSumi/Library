@@ -9,7 +9,7 @@ class Dijkstra{
 	private final int N;
 	int ai,bi,ti;
 	int src;
-	public long INF=Long.MAX_VALUE/2-1;
+	public static long INF=Long.MAX_VALUE/2-1;
 	public Dijkstra(int n) {
 		N=n;
 	}
